@@ -1,4 +1,4 @@
-package blueprint.workflowmodule.ratewatch;
+package blueprint.workflowmodule.loanapproval.ratewatch;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.awaitility.Awaitility.await;
@@ -12,7 +12,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import blueprint.workflowmodule.WorkflowModuleTest;
-import blueprint.workflowmodule.ratewatch.model.AggregateRepository;
+import blueprint.workflowmodule.loanapproval.ratewatch.model.AggregateRepository;
 
 /**
  * The test of the second use case, and with it the test of what "per workflow module"

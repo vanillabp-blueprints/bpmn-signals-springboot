@@ -1,10 +1,10 @@
-package blueprint.workflowmodule.ratewatch;
+package blueprint.workflowmodule.loanapproval.ratewatch;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 
-import blueprint.workflowmodule.ratewatch.model.Aggregate;
+import blueprint.workflowmodule.loanapproval.ratewatch.model.Aggregate;
 import io.vanillabp.spi.process.ProcessService;
 
 /**

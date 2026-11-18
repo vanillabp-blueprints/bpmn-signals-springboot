@@ -1,11 +1,11 @@
-package blueprint.workflowmodule.ratewatch;
+package blueprint.workflowmodule.loanapproval.ratewatch;
 
 import java.util.UUID;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RestController;
 
-import blueprint.workflowmodule.ratewatch.api.RateWatchApi;
+import blueprint.workflowmodule.loanapproval.ratewatch.api.RateWatchApi;
 import lombok.extern.slf4j.Slf4j;
 
 /**

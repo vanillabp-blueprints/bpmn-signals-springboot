@@ -1,4 +1,4 @@
-package blueprint.workflowmodule.ratewatch;
+package blueprint.workflowmodule.loanapproval.ratewatch;
 
 import java.time.LocalDateTime;
 import java.util.Optional;
@@ -6,8 +6,8 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
 
-import blueprint.workflowmodule.ratewatch.model.Aggregate;
-import blueprint.workflowmodule.ratewatch.model.AggregateRepository;
+import blueprint.workflowmodule.loanapproval.ratewatch.model.Aggregate;
+import blueprint.workflowmodule.loanapproval.ratewatch.model.AggregateRepository;
 import lombok.extern.slf4j.Slf4j;
 
 /**
